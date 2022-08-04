@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <style>
+            #title{
+                text-align:center;
+                font-size: 60px;
+                color: white;
+                
+            }
+            body {
+                font-family: azonix;
+                background-color: rgb(0, 0, 12);
+                background-repeat: no-repeat;
+            }
+            #ss,#ds{
+                width: 700px;
+                height: 700px;
+                font-family: azonix;
+                font-size: 25px;
+                border-radius: 10%;
+                border-color: white;
+            }
+            #ss,#ds:hover{
+                cursor: pointer;
+            }
+            #ss{
+                background-image: url('images/index/saturn_1.jpg');
+                font-size: 35px;
+                color: white;
+            }
+            #ds{
+                background-image: url('images/index/bubble_nebula.jpg');
+                color: white;
+                font-size: 35px;
+                
+            }
+            .buttons{
+                margin: auto;
+                position: absolute;
+                left: 254px;
+                top: 200px;
+            }           
+            
+
+        </style>
+    </head>
+    <body>
+        <p id="title">MY OBSERVATIONS</p>
+        <div class="buttons">
+            <button id="ss" onclick="location.href='obsSS.html'">SOLAR SYSTEM</button>
+            <button id="ds" onclick="location.href='obsDS.html'">DEEP SPACE</button>
+        </div>
+    </body>
+</html>

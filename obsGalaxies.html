@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <style>
+            #title{
+                text-align:center;
+                font-size: 60px;
+                color: white;
+                font-family: azonix;
+                
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgb(0, 0, 12);
+       
+            } 
+            #logs{
+                position: absolute;
+                left: auto;
+            }
+            th{
+                color:white;
+                padding-left:7px;
+                padding-top:15px;
+                padding-bottom: 15px;
+                padding-right: 7px;
+                border: 1px solid white;
+                text-align: center;
+                word-wrap: break-word;
+            } 
+            
+            td{
+                color:white;
+                padding-left:10px;
+                padding-top:15px;
+                padding-bottom: 15px;
+                padding-right: 10px;
+                border: 1px solid white;
+                text-align: center;
+                word-wrap: break-word;
+            }      
+            #key{
+                color: white;
+            }
+            tr:nth-child(even){
+                background-color: rgb(31, 31, 46);
+            }
+        </style>
+    </head>
+    <body>
+        <p id="title">GALAXY OBSERVATIONS</p>
+        <div id="key">
+            <a style="color:white; background-color: rgb(73, 73, 85); width: 200px;" onclick="location.href='obsDSO.html'">←To DSO Observations←</a>
+            <p>Magnification Key: (A) = 25mm Sirius Plossl, (B) = 9mm Goldline, (C) = 2x Barlow</p>
+        </div>
+        <div id="logs">
+            <table>
+                <tr>
+                    <th style="padding-left:80px; padding-right:80px;">Galaxies</th>
+                    <th style="padding-left:20px; padding-right:20px;">Magnification</th>
+                    <th style="padding-left:100px; padding-right:100px;">Type</th>
+                    <th style="padding-left:40px; padding-right:40px;">Constellation</th>
+                    <th style="padding-left:45px; padding-right:45px;">Right Ascension / Declination</th>
+                    <th style="padding-left:20px; padding-right:20px;">Observation Date</th>
+                    <th style="padding-left:20px; padding-right:20px;">Distance + Magnitude</th>
+                    <th style="padding-left:120px; padding-right:120px;">Notes / Other Information</th>
+                </tr>
+                <tr>
+                    <td>M94</td>
+                    <td>x48 (A)</td>
+                    <td>Spiral Galaxy</td>
+                    <td>Canes Venatici</td>
+                    <td>
+                        12h 51m 56.1s   +41° 00' 11.2"</td>
+                    <td>21/04/2022</td>
+                    <td>16.01 Million Ly, 8.19</td>
+                    <td>Observed in Bortle 7. First Galaxy! M94 is also known as Croc's Eye Galaxy.</td>
+                </tr>
+                <tr>
+                    <td>M81 - Bode's Galaxy <br> M82 - Cigar Galaxy <br> M94 - Croc's Eye Galaxy <br> M65 <br> M66</td>
+                    <td>x48 (A)</td>
+                    <td>Grand Design Spiral Galaxy <br> Starburst Galaxy <br> Spiral Galaxy <br> Spiral Galaxy <br> Intermediate Spiral Galaxy</td>
+                    <td>Ursa Major <br> Ursa Major <br> Canes Venatici <br> Leo <br> Leo </td>
+                    <td>
+                        09h 57m 19.5s   +68° 57' 48.3" <br> 09h 57m 40.0s   +69° 34' 39.9" <br> 12h 51m 56.1s   +41° 00' 11.2" <br> 
+                        11h 20m 05.1s   +12° 58' 19.9" <br> 
+                        11h 21m 24.2s   +12° 52' 16.1"</td>
+                    <td>24/04/2022</td>
+                    <td>11.74 Million Ly, 6.94 <br> 11.42 Million Ly, 8.38 <br> 16.01 Million Ly, 8.19 <br> 35 Million Ly, 10.25* <br> 35.88 Million Ly, 8.88</td>
+                    <td>Observed in Bortle 7. <br>First time seeing M81, M82, M65 and M66. <br>One of the best nights so far! <br>*10.25 according to Stellarium but may be more like 9.25.</td>
+                </tr>
+                <tr>
+                    <td>M31 - Andromeda Galaxy<br>M32</td>
+                    <td>x48 (A)</td>
+                    <td>Barred Spiral Galaxy<br>Dwarf "Early-Type" Galaxy</td>
+                    <td>Andromeda<br>Andromeda</td>
+                    <td>00h 43m 58.2s   +41° 23' 19.2"<br>
+                        00h 43m 55.7s   +40° 59' 06.6"                        </td>
+                    <td>26/07/2022</td>
+                    <td>2.537 Million Ly, 3.44<br>2.65 Million Ly, 8.06</td>
+                    <td>Observed in Bortle 7. Finally observed after 7 weeks! <br>Literally had 10 minutes of clarity before clouds came back.<br>First time observing Andromeda!<br>Caught M32 too, pretty cool.<br>
+                    Also, took out the telescope and brought it in all on my own!</td>
+                </tr>
+                <tr>
+                    <td>M31 - Andromeda Galaxy<br>M32</td>
+                    <td>x48 (A)</td>
+                    <td>Barred Spiral Galaxy<br>Dwarf "Early-Type" Galaxy</td>
+                    <td>Andromeda<br>Andromeda</td>
+                    <td>00h 43m 58.2s   +41° 23' 19.2"<br>
+                        00h 43m 55.7s   +40° 59' 06.6"                        </td>
+                    <td>03/08/2022</td>
+                    <td>2.537 Million Ly, 3.44<br>2.65 Million Ly, 8.06</td>
+                    <td>Observed in Bortle 7. Horrible transparency, lots of high cloud but still got a fuzz. M32 was very dim. Quick look.</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

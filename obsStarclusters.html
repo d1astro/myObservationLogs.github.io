@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <style>
+            #title{
+                text-align:center;
+                font-size: 60px;
+                color: white;
+                font-family: azonix;
+                
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgb(0, 0, 12);
+       
+            } 
+            #logs{
+                position: absolute;
+                left: auto;
+            }
+            th{
+                color:white;
+                padding-left:7px;
+                padding-top:15px;
+                padding-bottom: 15px;
+                padding-right: 7px;
+                border: 1px solid white;
+                text-align: center;
+                word-wrap: break-word;
+            } 
+            
+            td{
+                color:white;
+                padding-left:10px;
+                padding-top:15px;
+                padding-bottom: 15px;
+                padding-right: 10px;
+                border: 1px solid white;
+                text-align: center;
+                word-wrap: break-word;
+            }      
+            #key{
+                color: white;
+            }
+            tr:nth-child(even){
+                background-color: rgb(31, 31, 46);
+            }
+        </style>
+    </head>
+    <body>
+        <p id="title">CLUSTER OBSERVATIONS</p>
+        <div id="key">
+            <a style="color:white; background-color: rgb(73, 73, 85); width: 200px;" onclick="location.href='obsDSO.html'">←To DSO Observations←</a>
+            <p>Cluster Type Key: O = Open Cluster, G = Globular Cluster.</p>
+            <p>Magnification Key: (A) = 25mm Sirius Plossl, (B) = 9mm Goldline, (C) = 2x Barlow.</p>
+        </div>
+        <div id="logs">
+            <table>
+                <tr>
+                    <th style="padding-left:120px; padding-right:120px;">Cluster(s)</th>
+                    <th style="padding-left:20px; padding-right:20px;">Magnification</th>
+                    <th style="padding-left:20px; padding-right:20px;">Type</th>
+                    <th style="padding-left:40px; padding-right:40px;">Constellation</th>
+                    <th style="padding-left:65px; padding-right:65px;">Right Ascension / Declination</th>
+                    <th style="padding-left:20px; padding-right:20px;">Observation Date</th>
+                    <th style="padding-left:20px; padding-right:20px;">Distance + Magnitude</th>
+                    <th style="padding-left:140px; padding-right:140px;">Notes / Other Information</th>
+                </tr>
+                <tr>
+                    <td>M45 - Pleiades</td>
+                    <td>x48 (A)</td>
+                    <td>O</td>
+                    <td>Taurus</td>
+                    <td>03h 48m 18.7s   +24° 11' 04.8"</td>
+                    <td>06/12/2021</td>
+                    <td>444.2 ly, 1.59</td>
+                    <td>First star cluster observed. Looked like a mini big dipper. Really cool. B7.</td>
+                </tr>
+                <tr>
+                    <td>M44 - Beehive Cluster <br> M35 - Shoe-buckle Cluster <br>M3</td>
+                    <td>x48 (A)</td>
+                    <td>O<br>O<br>G</td>
+                    <td>Cancer<br>Gemini<br>Canes Venatici</td>
+                    <td>08h 41m 39.3s   +19° 35' 19.5"<br>
+                        06h 10m 15.0s   +24° 19' 45.3"<br>
+                        13h 43m 10.5s   +28° 16' 00.3"
+                    </td>
+                    <td>26/03/2022</td>
+                    <td>577.3 ly, 3.09<br>2772 ly, 5.09<br>33920 ly, 6.38</td>
+                    <td>First globular cluster today. Great night, got better at locating targets and realised there is so much to see. B7.</td>
+                </tr>
+                <tr>
+                    <td>M44 - Beehive Cluster <br> NGC 2264 - Christmas Tree Cluster</td>
+                    <td>x48 (A)</td>
+                    <td>O<br>O</td>
+                    <td>Cancer<br>Monoceros</td>
+                    <td>08h 41m 39.3s   +19° 35' 19.5"<br>
+                        06h 42m 10.7s   +09° 52' 28.4"</td>
+                    <td>02/04/2022</td>
+                    <td>577.3 ly, 3.09<br>2350 ly, 3.89</td>
+                    <td>NGC 2264 is basically the cone nebula. No signs of nebulosity though. Lots of light pollution, B7 looking into possibly B8.</td>
+                </tr>
+                <tr>
+                    <td>M13 - The Great Globular Cluster<br>M92</td>
+                    <td>x48 (A), x133 (B)<br>x48 (A)</td>
+                    <td>G<br>G</td>
+                    <td>Hercules<br>Hercules</td>
+                    <td>
+                        16h 42m 30.8s   +36° 25' 02.9"<br>
+                        17h 17m 50.0s   +43° 06' 35.6"</td>
+                    <td>22/05/2022</td>
+                    <td>22180 ly, 5.78<br>26740 ly, 
+                        6.50</td>
+                    <td>M13 - Brightest globular I've seen so far. Looked good in 25mm but with 9mm it was insane. Could make out so many stars.<br>M92 - Underrated cluster, fairly small but easy to make out and find. Smallest cluster seen so far.</td>
+                </tr>
+                <tr>
+                    <td>M39<br>M56<br>IC 4665 - Summer Beehive Cluster<br>M71</td>
+                    <td>x48 (A)</td>
+                    <td>O<br>G<br>O<br>G/O</td>
+                    <td>Cygnus<br>Lyra<br>Ophiucus<br>Sagitta</td>
+                    <td>21h 32m 36.7s   +48° 31' 37.8"<br>
+                        19h 17m 28.8s   +30° 13' 16.4"<br>
+                        17h 47m 24.6s   +05° 42' 28.1"<br>
+                        19h 54m 46.9s   +18° 50' 08.0"                      
+                        </td>
+                    <td>12/06/2022</td>
+                    <td>1063 ly, 4.59<br>33000 ly, 8.38<br>1400 ly, 4.19<br>13050 ly, 6.09</td>
+                    <td>Great night, very good seeing and transparency. First time observing all of these. <br>M39 - Bright and obvious.<br>M56 - Don't know how I observed this, so dim and so small - smallest cluster observed yet (5.8' x 5.8').
+                    <br>IC 4665 - Again very bright, cool 'HI' shape. Thought I'd seen it before but confirmed today.<br>M71 - Barely seen, very loose glob, may as well be an open cluster.</td>
+                </tr>
+                <tr>
+                    <td>NGC 869 - The Double Cluster<br>NGC 884 - The Double Cluster<br>IC 4756 - Graff's / Tweedledee Cluster<br>NGC 6633 - Tweedledum Cluster</td>
+                    <td>x48 (A)</td>
+                    <td>O<br>O<br>O<br>O</td>
+                    <td>Perseus<br>Perseus<br>Serpens<br>Ophiucus</td>
+                    <td>
+                        02h 20m 34.9s   +57° 13' 39.1"<br>
+                        02h 23m 58.5s   +57° 13' 23.5"<br>
+                        18h 39m 38.2s   +05° 30' 40.2"<br>
+                        18h 28m 37.6s   +06° 35' 07.2"</td>
+                    <td>03/08/2022</td>
+                    <td>7460 ly, 3.69<br>7640 ly, 3.80<br>~1500 ly, 4.59<br>~1000 ly, 4.59</td>
+                    <td>Bortle 7. Transparency was low and there was high cloud. First time observing all of these. Double cluster is epic. Took a while to find
+                        the other two, especially NGC 6633 which I think is much dimmer than IC 4756. Pretty decent session.
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </table>
+        </div>
+    </body>
+</html>

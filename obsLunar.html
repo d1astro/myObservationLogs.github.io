@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <style>
+            #title{
+                text-align:center;
+                font-size: 60px;
+                color: white;
+                font-family: azonix;
+                
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgb(0, 0, 12);
+       
+            } 
+            #logs{
+                position: absolute;
+                left: auto;
+            }
+            th,td{
+                color:white;
+                padding-left:70px;
+                padding-top:15px;
+                padding-bottom: 15px;
+                padding-right: 70px;
+                border: 1px solid white;
+                text-align: center;
+            }           
+            #key{
+                color: white;
+            }
+            tr:nth-child(even){
+                background-color: rgb(31, 31, 46);
+            }
+        </style>
+    </head>
+    <body>
+        <p id="title">LUNAR OBSERVATIONS</p>
+        <div id="key">
+            <a style="color:white; background-color: rgb(73, 73, 85); width: 200px;" onclick="location.href='obsSS.html'">←To Solar System Observations←</a>
+            <p>Feature Key: (1) = Crater, (2) = Mare, (3) = Rille, (4) = Valley, (5) = Mountains, (6) = Domes, (7) = Others</p>
+            <p>Magnification Key: (A) = 25mm Sirius Plossl, (B) = 9mm Goldline, (C) = 2x Barlow</p>
+        </div>
+        <div id="logs">
+            <table>
+                <tr>
+                    <th >Feature</th>
+                    <th>Magnification</th>
+                    <th>Moon Phase</th>
+                    <th>Illumination(%)</th>
+                    <th>Latitude / Longitude</th>
+                    <th>Observation Date</th>
+                    <th>Notes / Other Information</th>
+                </tr>
+                <tr>
+                    <td>Copernicus(1) </br> 
+                        Aristarchus(1) </br>
+                        Kepler(1) </br>
+                        Tycho(1)<br>
+                    Various Maria</td>
+                    <td>x48 (A)</td>
+                    <td>Waning Gibbous</td>
+                    <td>97%</td>
+                    <td>10°N, 20°W <br> 24°N, 313°E <br>8°N, 322°E <br> 43°S 11°W </td>
+                    <td>22/11/2021</td>
+                    <td>First night with first telescope! Very bright. Misjudged Tycho as Schiller initially.</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

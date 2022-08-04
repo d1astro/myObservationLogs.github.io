@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <style>
+            #title{
+                text-align:center;
+                font-size: 60px;
+                color: white;
+                font-family: azonix;
+                
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgb(0, 0, 12);
+       
+            } 
+            #logs{
+                position: absolute;
+                left: auto;
+            }
+            th{
+                color:white;
+                padding-left:7px;
+                padding-top:15px;
+                padding-bottom: 15px;
+                padding-right: 7px;
+                border: 1px solid white;
+                text-align: center;
+                word-wrap: break-word;
+            } 
+            
+            td{
+                color:white;
+                padding-left:10px;
+                padding-top:15px;
+                padding-bottom: 15px;
+                padding-right: 10px;
+                border: 1px solid white;
+                text-align: center;
+                word-wrap: break-word;
+            }      
+            #key{
+                color: white;
+            }
+            tr:nth-child(even){
+                background-color: rgb(31, 31, 46);
+            }
+        </style>
+    </head>
+    <body>
+        <p id="title">STELLAR OBSERVATIONS</p>
+        <div id="key">
+            <a style="color:white; background-color: rgb(73, 73, 85); width: 200px;" onclick="location.href='obsDS.html'">←To Deep Space Observations←</a>
+            <p>Stellar Key: (1) = Double Star, (2) = Carbon Star, (3) = Asterism, (4) = Constellation, (5) = Other</p>
+            <p>Magnification Key: (A) = 25mm Sirius Plossl, (B) = 9mm Goldline, (C) = 2x Barlow</p>
+        </div>
+        <div id="logs">
+            <table>
+                <tr>
+                    <th style="padding-left:60px; padding-right:60px;">Star(s)</th>
+                    <th style="padding-left:20px; padding-right:20px;">Magnification</th>
+                    <th style="padding-left:80px; padding-right:80px;">Type</th>
+                    <th style="padding-left:40px; padding-right:40px;">Constellation</th>
+                    <th style="padding-left:75px; padding-right:75px;">Right Ascension / Declination</th>
+                    <th style="padding-left:20px; padding-right:20px;">Observation Date</th>
+                    <th style="padding-left:50px; padding-right:50px;">Distance + Magnitude</th>
+                    <th style="padding-left:120px; padding-right:120px;">Notes / Other Information</th>
+                </tr>
+                <tr>
+                    <td>Betelgeuse<br>Rigel</td>
+                    <td>x48 (A)</td>
+                    <td>Red Supergiant <br> Blue Supergiant</td>
+                    <td>Orion α<br> Orion β</td>
+                    <td>05h 56m 21.4s   +07° 24' 41.1" <br> 
+                        05h 15m 36.1s   -08° 10' 35.4"</td>
+                    <td>02/12/2021</td>
+                    <td>497.95 ly, 0.50 <br> 862.86, 0.19</td>
+                    <td>Betelgeuse has a spectral type of M2lab and Rigel has one of B8lab.</td>
+                </tr>
+                <tr>
+                    <td>Capella<br>Betelgeuse<br>Hamal<br>Aldebaran</td>
+                    <td>x48 (A)</td>
+                    <td>Yellow Giant <br>Red Supergiant <br> Orange Giant <br> Red Giant</td>
+                    <td>Auriga α<br>Orion α<br>Aries α<br>Taurus α</td>
+                    <td>05h 18m 18.5s   +46° 01' 05.9"<br> 05h 56m 21.4s   +07° 24' 41.1" <br>
+                        02h 08m 25.6s   +23° 33' 57.6" <br> 
+                        04h 37m 10.9s   +16° 33' 12.2"
+                        </td>
+                    <td>06/12/2021</td>
+                    <td>42.80 ly, 0.24 <br> 497.95 ly, 0.50 <br> 65.81 ly, 2.17 <br> 66.64 ly, 1.00</td>
+                    <td>Capella is actually a quadruple star system - two pairs of binaries orbiting each other!</td>
+                </tr>
+                <tr>
+                    <td>Albireo (1)</td>
+                    <td>x48 (A)</td>
+                    <td>(N/A)</td>
+                    <td>Cygnus β</td>
+                    <td>
+                        19h 31m 38.1s   +28° 00' 16.0"</td>
+                    <td>09/04/2022</td>
+                    <td>N/A, 3.20</td>
+                    <td>Not certain whether Albireo is an optical or true binary but epic nonetheless. Blue and orange colour contrast is beautiful.</td>
+                </tr>
+                <tr>
+                    <td>Mizar and Alcor (1)</td>
+                    <td>x48 (A)</td>
+                    <td>(N/A)</td>
+                    <td>Ursa Major</td>
+                    <td>
+                        13h 24m 50.5s   +54° 48' 47.9"</td>
+                    <td>24/04/2022</td>
+                    <td>80 - 85 ly, 2.25 - 6.28</td>
+                    <td>Really cool binary, infact first one I saw. Mizar in itself is a binary, or rather a quadruple star sytem. Alcor is also a binary system and the Alcor system is gravitationally
+                        bound to the Mizar system.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Coat Hanger (3)</td>
+                    <td>x48 (A)</td>
+                    <td>(N/A)</td>
+                    <td>Vulpecula</td>
+                    <td>
+                        19h 26m 23.2s   +20° 13' 32.0"</td>
+                    <td>02/06/2022</td>
+                    <td>N/A, 3.59</td>
+                    <td>First asterism. Looks cool, very distinct coat hanger shape. Found it by mistake looking for M71 and M27.</td>
+                </tr>
+                <tr>
+                    <td>RS Cygni (1)(2)</td>
+                    <td>x48 (A)</td>
+                    <td>Carbon Star</td>
+                    <td>Cygnus</td>
+                    <td>
+                        20h 14m 13.2s   +38° 47' 35.7"</td>
+                    <td>12/06/2022</td>
+                    <td>1545.80 ly, 7.53</td>
+                    <td>First carbon star observed. So happy. Very red and distinct colour, and it's a binary! <br>Infact it is the dimmer of the two in the binary. Binary not observed though.</td>
+                </tr>
+                <tr>
+                    <td>Kurhah<br>Epsilon Lyrae (1)<br>13 Lyrae<br>Mizar and Alcor (1)<br>72 Ophiuchi<br>Delphinus<br>Aquila</td>
+                    <td>x48 (A)</td>
+                    <td>Main Sequence<br>White Main Sequence<br>Red Giant Star<br>(N/A)<br>Blue Subgiant<br>(N/A)<br>(N/A)</td>
+                    <td>Cepheus<br>Lyra<br>Lyra<br>Ursa Major<br>Ophiucus<br>Delphinus<br>Aquila</td>
+                    <td>
+                        22h 04m 27.1s   +64° 44' 07.8"<br>
+                        18h 45m 08.7s   +39° 38' 17.9"<br>
+                        18h 56m 02.4s   +43° 58' 39.3"<br>
+                        13h 24m 49.1s   +54° 48' 48.6"<br>
+                        18h 08m 25.7s   +09° 34' 08.2"<br>(N/A)<br>(N/A)</td>
+                    <td>03/08/2022</td>
+                    <td>101.39 ly, 4.25<br>
+                    ~162 ly, 4.72 - 5.19<br>298.14 ly, 3.92<br>80 - 85 ly, 2.25 - 6.28<br>86.86 ly, 3.75<br>(N/A)<br>(N/A)</td>
+                    <td>Bortle 7, low transparency, high cloud. Kurhah I found while sweeping around in Cepheus, located almost right in the middle. Epsilon Lyrae is a double 
+                        double but I could only see the first - Epsilon Lyrae 1 and 2. 13 Lyrae had a nice red colour, could just about see it naked eye. Mizar and Alcor looked
+                        quite nice. Mizar looked quite bright and blue while Mizar b was almost whitish yellow. 72 Oph was really useful in finding IC 4756 and NGC 6633, also naked eye.
+                        Finally, I saw the constellations of Delphinus and Aquila very clearly, and could make out the whole pattern, which was a first.
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

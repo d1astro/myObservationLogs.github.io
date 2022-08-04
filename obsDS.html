@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <style>
+            #title{
+                text-align:center;
+                font-size: 60px;
+                color: white;
+                
+            }
+            body {
+                font-family: azonix;
+                background-color: rgb(0, 0, 12);
+                background-repeat: no-repeat;
+            }
+            #stars,#dsos{
+                width: 700px;
+                height: 700px;
+                font-family: azonix;
+                font-size: 25px;
+                border-radius: 10%;
+                border-color: white;
+            }
+            #stars,#dsos:hover{
+                cursor: pointer;
+            }
+            #stars{
+                background-image: url('images/index/BigandLittleDippers.jpg');
+                font-size: 35px;
+                color: white;
+            }
+            #dsos{
+                background-image: url('images/index/dragonsofara.jpg');
+                color: white;
+                font-size: 35px;
+                
+            }
+            .buttons{
+                margin: auto;
+                position: absolute;
+                left: 254px;
+                top:200px;
+            }           
+            
+            #b{
+                position: absolute;
+                top:120px;
+                text-align: center;
+                color: white;
+                left:800px;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="title">DEEP SPACE OBSERVATIONS</p>
+        <p id="b" onclick="location.href='obsmain.html'">←To Main Observations←</p>
+        <div class="buttons">
+            <button id="dsos" onclick="location.href='obsDSO.html'">DSOs</button>
+            <button id="stars" onclick="location.href='obsStars.html'">STARS</button>
+        </div>
+    </body>
+</html>

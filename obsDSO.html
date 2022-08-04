@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <style>
+            #title{
+                text-align:center;
+                font-size: 60px;
+                color: white;
+                
+            }
+            body {
+                font-family: azonix;
+                background-color: rgb(0, 0, 12);
+                background-repeat: no-repeat;
+            }
+            #sc,#gx,#nb{
+                width: 525px;
+                height: 525px;
+                font-family: azonix;
+                font-size: 25px;;
+                border-radius: 10%;
+                border-color: white;
+            }
+            #sc,#gx,#nb:hover{
+                cursor: pointer;
+            }
+            #sc{
+                background-image: url('images/index/beehive.jpg');
+                font-size: 35px;
+                color: white;
+            }
+            #gx{
+                background-image: url('images/index/bodes.jpg');
+                color: white;
+                font-size: 35px;
+                
+            }
+            #nb{
+                color: white;
+                font-size: 35px;
+                background-image: url('images/index/crescent_nebula.jpg');
+            }
+            .buttons{
+                margin: auto;
+                position: absolute;
+                left: 165px;
+                top: 275px;
+            }           
+            
+
+        </style>
+    </head>
+    <body>
+        <p id="title">DSOs OBSERVATIONS</p>
+        <p style="color:white; text-align: center; font-size: 25px;" onclick="location.href='obsDS.html'">←To Deep Space Observations←</p>
+        <div class="buttons">
+            <button id="gx" onclick="location.href='obsGalaxies.html'">GALAXIES</button>
+            <button id="nb" onclick="location.href='obsNebulae.html'">NEBULAE</button>
+            <button id="sc" onclick="location.href='obsStarclusters.html'">STAR CLUSTERS</button>
+        </div>
+    </body>
+</html>
