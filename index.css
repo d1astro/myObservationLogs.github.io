@@ -12,10 +12,10 @@ body {
 #ss,#ds{
     width: 700px;
     height: 700px;
-    font-family: azonix;
     font-size: 25px;
     border-radius: 10%;
     border-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #ss,#ds:hover{
     cursor: pointer;
@@ -37,3 +37,7 @@ body {
     left: 254px;
     top: 200px;
 }           
+@font-face {
+    font-family: azonix;
+    src: url(fonts/Azonix.otf);
+}
